@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1EBE8C</color>
+    <color name="colorPrimaryDark">#1EBE8C</color>
+    <color name="colorAccent">#1EBE8C</color>
+
+    <color name="login_error_tips_color">#EC7676</color>
+    <color name="login_forget_password_color">#7F7E7E</color>
+    <color name="color_tab_checked">#1EBE8C</color>
+    <color name="color_tab_normal">#666666</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_C8C8C8">#C8C8C8</color>
+    <color name="color_D79313">#D79313</color>
+
+
+    <color name="black">#000000</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_343434">#343434</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_9A9A9A">#9A9A9A</color>
+    <color name="color_0D9869">#0D9869</color>
+    <color name="color_lucency">#00000000</color>
+    <color name="color_black1">#1A000000</color>
+    <color name="color_F35A58">#F35A58</color>
+    <color name="color_D49957">#D49957</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+    <color name="color_F4F8F7">#F4F8F7</color>
+    <color name="color_DCE9E5">#DCE9E5</color>
+    <color name="color_E84343">#E84343</color>
+    <color name="color_D0E7DF">#D0E7DF</color>
+    <color name="color_DADADA">#DADADA</color>
+    <color name="color_DADADA3">#4DDADADA</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_F7F7F73">#4DF7F7F7</color>
+    <color name="color_EEF6F3">#EEF6F3</color>
+    <color name="color_009B65">#009B65</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_848E8A">#848E8A</color>
+    <color name="color_blue">#5C9FF1</color>
+    <color name="color_blue2">#4D5C9FF1</color>
+    <color name="color_red">#F44336</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="color_green">#4CAF50</color>
+    <color name="color_orange">#FF9800</color>
+    <color name="color_black">#000000</color>
+
+</resources>

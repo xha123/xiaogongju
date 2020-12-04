@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvShowSmile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:textSize="@dimen/sp_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_14"
+        android:paddingEnd="@dimen/dp_14">
+
+        <Button
+            android:id="@+id/tvLastSmile"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_44"
+            android:text="上一条" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_1"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/tvNextSmile"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_44"
+            android:text="下一条" />
+    </LinearLayout>
+</RelativeLayout>

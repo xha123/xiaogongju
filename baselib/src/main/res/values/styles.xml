@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="common_dialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+
+    </style>
+
+    <style name="common_confirm_dialog" parent="common_dialog">
+
+        <item name="android:windowEnterAnimation">@anim/common_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/common_scale_out</item>
+
+    </style>
+</resources>

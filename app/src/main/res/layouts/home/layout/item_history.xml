@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_14"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10"
+    android:background="@drawable/shape_r5_blue3"
+    android:foreground="@drawable/bg_clicker_r5">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivShowHistory"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_10"
+        app:placeholderImage="@drawable/img_def"
+        app:roundedCornerRadius="@dimen/dp_5" />
+
+    <TextView
+        android:id="@+id/tvTitleHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ivShowHistory"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_toEndOf="@id/ivShowHistory"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvdetailHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleHistory"
+        android:layout_alignStart="@id/tvTitleHistory"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:ellipsize="end"
+        android:maxLines="3" />
+</RelativeLayout>

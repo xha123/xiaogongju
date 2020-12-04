@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorWifiConnected">#6495ED</color>
+    <color name="color_night">#DA272829</color>
+    <color name="color_050781">#050781</color>
+    <color name="color_black">#000000</color>
+    <color name="color_020349">#020349</color>
+    <color name="color_black6">#99000000</color>
+    <color name="color_8B8BA5">#8B8BA5</color>
+    <color name="color_black2">#33000000</color>
+    <color name="color_blue2">#335C9FF1</color>
+
+    <color name="common_color_divide_line">#F0F0F0</color>
+    <color name="black8">#CC000000</color>
+
+</resources>

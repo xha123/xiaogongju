@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/ivShowQstlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_240"
+                    app:placeholderImage="@drawable/img_def" />
+
+                <TextView
+                    android:id="@+id/tvTitleQstlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:background="@drawable/shape_r5_blue2"
+                    android:padding="@dimen/dp_10"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:background="@drawable/shape_r5_black1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        android:id="@+id/tvAnswer1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/selector_choose"
+                        android:drawablePadding="@dimen/dp_8" />
+
+                    <TextView
+                        android:id="@+id/tvAnswer2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_15"
+                        android:drawableStart="@drawable/selector_choose"
+                        android:drawablePadding="@dimen/dp_8" />
+
+                    <TextView
+                        android:id="@+id/tvAnswer3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_15"
+                        android:drawableStart="@drawable/selector_choose"
+                        android:drawablePadding="@dimen/dp_8" />
+
+                    <TextView
+                        android:id="@+id/tvAnswer4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_15"
+                        android:drawableStart="@drawable/selector_choose"
+                        android:drawablePadding="@dimen/dp_8" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tvReulstQstlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginEnd="@dimen/dp_14" />
+
+                <TextView
+                    android:id="@+id/tvExplanQstlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_14"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginEnd="@dimen/dp_14"
+                    android:layout_marginBottom="@dimen/dp_15"
+                    android:textColor="@color/color_blue" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dp_14"
+        android:paddingEnd="@dimen/dp_14">
+
+        <ImageView
+            android:id="@+id/tvLeftQstlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/qst_left" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvSubmitQstlist"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_44"
+            android:layout_gravity="center_vertical"
+            android:text="交卷" />
+
+        <View
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/tvRightQstlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/qst_right" />
+    </LinearLayout>
+</LinearLayout>
